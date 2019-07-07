@@ -12,7 +12,8 @@ public class Stream {
   }
 
   public String getname() {
-    return material.getname();
+    String res=material.getname();
+    return res;
   }
 
   public double getamount() {
